@@ -1,7 +1,7 @@
 {
-  "name": "bitcore-lib-dash",
-  "version": "0.13.20",
-  "description": "A pure and powerful JavaScript Dash library.",
+  "name": "bitcore-lib-blocx",
+  "version": "0.0.1",
+  "description": "A pure and powerful JavaScript Blocx library.",
   "author": "BitPay <dev@bitpay.com>",
   "main": "index.js",
   "scripts": {
@@ -69,7 +69,7 @@
     }
   ],
   "keywords": [
-    "dash",
+    "blocx",
     "transaction",
     "address",
     "p2p",
@@ -86,7 +86,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/dashpay/bitcore-lib-dash.git"
+    "url": "https://github.com/lubhub612/blocxcore-lib.git"
   },
   "browser": {
     "request": "browser-request"
