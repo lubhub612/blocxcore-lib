@@ -1,25 +1,39 @@
-Bitcore-Dash Library
+Bitcore-Blocx Library
 =======
 
-[![NPM Package](https://img.shields.io/npm/v/bitcore-lib-dash.svg?style=flat-square)](https://www.npmjs.org/package/bitcore-lib-dash)
+[![NPM Package](https://img.shields.io/npm/v/bitcore-lib-dash.svg?style=flat-square)](https://www.npmjs.org/package/bitcore-lib-blocx)
 [![Build Status](https://img.shields.io/travis/dashpay/bitcore-lib-dash.svg?branch=master&style=flat-square)](https://travis-ci.org/dashpay/bitcore-lib-dash)
 [![Coverage Status](https://img.shields.io/coveralls/dashpay/bitcore-lib-dash.svg?style=flat-square)](https://coveralls.io/github/dashpay/bitcore-lib-dash?branch=master)
 
-A pure and powerful JavaScript Dash library.
+A pure and powerful JavaScript Blocx library.
 
 ## Principles
 
-Dash is a powerful new peer-to-peer platform for the next generation of financial technology. The decentralized nature of the Dash network allows for highly resilient dash infrastructure, and the developer community needs reliable, open-source tools to implement dash apps and services.
+Blocx is a powerful new peer-to-peer platform for the next generation of financial technology. The decentralized nature of the Blocx network allows for highly resilient Blocx infrastructure, and the developer community needs reliable, open-source tools to implement Blocx apps and services.
 
 ## Get Started
 
 ```
-npm install bitcore-lib-dash
+npm install bitcore-lib-Blocx
 ```
 
 ```
-bower install bitcore-lib-dash
+bower install bitcore-lib-Blocx
 ```
+
+## Create New Blocx Address
+
+```
+const bitcore = require('bitcore-lib-blocx');
+
+var privateKey = new bitcore.PrivateKey();
+
+var address = privateKey.toAddress();
+
+console.log(address.toString());
+```
+
+
 
 ## Documentation
 
@@ -75,8 +89,8 @@ To verify signatures, use the following PGP keys:
 ## Development & Tests
 
 ```sh
-git clone https://github.com/dashpay/bitcore-lib-dash
-cd bitcore-lib-dash
+git clone https://github.com/lubhub612/blocxcore-lib.git
+cd blocxcore-lib
 npm install
 ```
 
@@ -91,7 +105,7 @@ or create a test coverage report (you can open `coverage/lcov-report/index.html`
 
 ## License
 
-Code released under [the MIT license](https://github.com/dashpay/bitcore-lib-dash/blob/master/LICENSE).
+Code released under [the MIT license](https://github.com/lubhub612/blocxcore-lib/blob/master/LICENSE).
 
 Copyright 2013-2015 BitPay, Inc. Bitcore is a trademark maintained by BitPay, Inc.
 Copyright 2016 The Dash Foundation, Inc.
